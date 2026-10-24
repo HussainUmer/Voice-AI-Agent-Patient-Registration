@@ -8,7 +8,6 @@ A voice-based patient registration prototype that collects demographic details t
 
 - **Voice & telephony:** Vapi
 - **Backend:** Node.js, Express
-- **Validation:** Zod
 - **Database:** Neon PostgreSQL, Prisma ORM
 - **Deployment:** Render
 
