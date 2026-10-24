@@ -113,7 +113,7 @@ The webhook expects Vapi's `message.toolCallList` structure and returns results 
 
 Deploy the GitHub repository as a Render Web Service. If `package.json` is in a subfolder, set Render's **Root Directory** accordingly.
 
-- **Build:** `npm ci && npx prisma generate`
+- **Build:** `npm install && npx prisma generate`
 - **Start:** `npm start`
 - **Environment:** `DATABASE_URL`, `VAPI_WEBHOOK_SECRET`, `NODE_ENV=production`
 
